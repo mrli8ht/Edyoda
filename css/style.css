@@ -1,0 +1,215 @@
+*,*::after,*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', Verdana, sans-serif;
+    height: 100%;
+    background-color: #0d1c40;
+    color: #ffffff;
+}
+.body-container{
+    align-items: center;
+    margin: 5rem;
+    display: flex;
+}
+.leftsection{
+    flex: 1;
+
+}
+.flex-child:first-child {
+    margin-right: 20px;
+}
+.strikeamount{
+    text-decoration: line-through;
+    text-decoration-color: #FF0000;
+}
+.main-heading{
+    margin: 10px;
+    font-size: 2.4rem;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.bluetext{
+    color: #0048FF;
+}
+.rightsection{
+    background-color: #FFFFFF;
+    
+    color: #3C4852;
+    padding-top: 6rem;
+    height: 600px;
+    width: 450px;
+    border-radius: 10px;
+}
+.rightcont{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+   
+}
+.main-features-list{
+    font-size: 1.6rem;
+}
+ul{
+    list-style-type: none;
+    margin-left: 70px;
+}
+li{
+    margin-bottom: 40px;
+}
+.form-heading{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding-left: 5rem;
+}
+.plan-cont{
+    display: flex;
+    flex-direction: column;
+    
+}
+.plan1{
+    margin: .5rem;
+    display: flex;
+    height: 3.5rem;
+    padding: .5rem;
+    background-color: #e7e7e7;
+    flex-direction: row;
+    border-color: #bebebe;
+    font-size: .75rem;
+    margin: .4rem;
+    border-radius: .3rem;
+    opacity: 60%;
+
+
+
+}
+.ext{
+    display: flex;
+    flex-direction: column;
+    font-size: .7rem;
+    padding-bottom: 1rem;
+}
+.plan2{
+    margin: .5rem;
+    height: 3.5rem;
+    padding: .5rem;
+    display: flex;
+    background-color: #d7eddd;
+    flex-direction: row;
+    border-color: #47ba68;
+    font-size: .75rem;
+    margin: .4rem;
+    border-radius: .3rem;
+
+}
+.plan3{
+    margin: .5rem;
+    display: flex;
+    height: 3.5rem;
+    padding: 1.2rem .5rem;  
+    flex-direction: row;
+    border-color: #bebebe;
+    background-color: white;
+    font-size: .75rem;
+    margin: .4rem;
+    border-radius: .3rem;
+
+}
+.plan4{
+    margin: .5rem;
+    display: flex;
+    padding: 1.2rem .5rem;  
+    flex-direction: row;
+    height: 3.5rem;
+    background-color: white;
+    font-size: .75rem;
+    margin: .4rem;
+    border-color: #bebebe;
+    border-radius: .3rem;
+
+
+}
+.plan5{
+    margin: .5rem;
+    display: flex;
+    
+    height: 3.5rem;
+    padding: .5rem;
+    color: #de4313;
+    font-weight: bold;
+    background-color: #ffffff;
+        flex-direction: row;
+    border-color: #bebebe;
+    font-size: .75rem;
+    margin: .4rem;
+    
+    border-radius: .3rem;
+    
+
+
+
+}
+
+.legend1{
+    background-color: #de4313;
+    border-radius: .14rem;
+    width: 7rem;
+    height: .9rem;
+    font-size: .6rem;
+    color: white;
+    padding-top: .11rem;
+    padding-left: 1.55rem;
+    
+
+}
+.e{
+    padding-left: 9rem;
+}
+
+.legend2{
+    background-color: #47ba68;
+    border-radius: .14rem;
+    width: 7rem;
+    height: .9rem;
+    font-size: .6rem;
+    color: white;
+    padding-top: .11rem;
+    padding-left: 1.55rem;
+    
+}
+.btns{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+}
+.cancel-btn{
+    background-color: white;
+    border:.11rem solid #de4313;
+    color: #de4313;
+    border-radius: .2rem;
+    width: 11rem;
+    height: 2.5rem;
+}
+.pay-btn{
+    background-color: #47ba68;
+    color: white;
+    border-radius: .2rem;
+    border:.11rem solid #47ba68;
+    width: 11rem;
+    height: 2.5rem;
+}
+.len{
+    padding-left: 13rem;
+    font-size: .8rem;
+}
+.total{
+    padding-left: 1rem;
+    font-size: .8rem;
+
+}
